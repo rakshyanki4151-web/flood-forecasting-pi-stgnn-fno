@@ -1,0 +1,14 @@
+======================================================================
+Model: BaselineSTGNN
+======================================================================
+Total Parameters:     56,003
+Trainable Parameters: 56,003
+Non-trainable:        0
+======================================================================
+Layer Architecture:
+  input_proj                               Linear                    params=1,600
+  gnn                                      GATConv                   params=192
+  gnn.aggr_module                          SumAggregation            params=0
+  gnn.lin                                  Linear                    params=4,096
+  gru                                      GRU                       params=49,920
+  head                                     Linear                    params=195

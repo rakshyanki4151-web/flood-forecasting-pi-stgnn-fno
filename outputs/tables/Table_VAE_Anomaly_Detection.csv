@@ -1,0 +1,12 @@
+Metric,Value
+Test timesteps,725.0
+VAE anomaly flags,75.0
+Flag rate (%),10.34
+Train recon threshold (95th),0.045885
+Mean recon error (test),0.02914
+Precision vs Observed≥P95,0.3867
+Recall (POD) vs Observed≥P95,0.7838
+F1 vs Observed≥P95,0.5179
+Precision vs Observed≥P99,0.0933
+Recall (POD) vs Observed≥P99,0.875
+F1 vs Observed≥P99,0.1687

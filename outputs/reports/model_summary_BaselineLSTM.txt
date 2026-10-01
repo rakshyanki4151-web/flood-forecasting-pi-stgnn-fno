@@ -1,0 +1,11 @@
+======================================================================
+Model: BaselineLSTM
+======================================================================
+Total Parameters:     68,355
+Trainable Parameters: 68,355
+Non-trainable:        0
+======================================================================
+Layer Architecture:
+  input_proj                               Linear                    params=1,600
+  lstm                                     LSTM                      params=66,560
+  head                                     Linear                    params=195

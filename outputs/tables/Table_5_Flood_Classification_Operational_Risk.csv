@@ -1,0 +1,5 @@
+Method,Precision,Recall,F1,ROC_AUC,AUC_PR
+Method 1: Threshold-based Anomaly Head,0.1705,0.1895,0.1795,0.6694,0.1073
+Method 2: MC-Dropout Uncertainty CI Bound,0.8709,0.8778,0.8743,0.996,0.9538
+Method 3: VAE Reconstruction Error,0.6774,0.4498,0.5406,0.8941,0.5704
+Method 4: VAE KL-Divergence Latent Shift,0.0532,0.8821,0.1003,0.4993,0.0464

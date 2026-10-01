@@ -1,0 +1,5 @@
+Loss Variant,NSE,KGE,RMSE,AUC-PR
+No_Smoothness,0.6659,0.5029,73.5531,0.3267
+No_NonNegativity,0.7586,0.7576,62.5201,0.352
+No_MassBalance,0.7526,0.6631,63.2989,0.3346
+Full_Physics,0.6793,0.5159,72.0665,0.3403

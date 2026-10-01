@@ -1,0 +1,4 @@
+VAE_Anomaly_Flag,MC_Normal,MC_Uncertain,All
+VAE_Anomaly,60,15,75
+VAE_Normal,646,4,650
+All,706,19,725

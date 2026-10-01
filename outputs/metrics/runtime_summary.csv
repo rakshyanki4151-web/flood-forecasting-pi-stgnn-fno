@@ -1,0 +1,6 @@
+Model,Total_Params,Trainable_Params,VRAM_GB,Train_Time_min,Inf_ms_batch,Inf_ms_sample,Training_Time_Per_Epoch_s,Inference_Latency_Per_Batch_ms,Inference_Latency_Per_Sample_ms,GPU_VRAM_GB
+NaivePersistence,0,0,0.0,15.0,0.0,0.0,0.0101,0.0,0.0,0.0
+BaselineLSTM,68355,68355,0.0,15.0,0.0,0.0,0.0101,0.0,0.0,0.0
+BaselineGCN,5955,5955,0.516,15.0,182.92,0.5302,0.0101,182.92,0.5302,0.516
+BaselineSTGNN,56003,56003,0.0,15.0,0.0,0.0,0.0101,0.0,0.0,0.0
+Hybrid_PI_STGNN_FNO,297670,297670,0.0,15.0,0.0,0.0,0.0101,0.0,0.0,0.0

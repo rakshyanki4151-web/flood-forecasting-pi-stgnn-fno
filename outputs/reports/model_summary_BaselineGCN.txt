@@ -1,0 +1,13 @@
+======================================================================
+Model: BaselineGCN
+======================================================================
+Total Parameters:     5,955
+Trainable Parameters: 5,955
+Non-trainable:        0
+======================================================================
+Layer Architecture:
+  input_proj                               Linear                    params=1,600
+  gnn                                      GCNConv                   params=64
+  gnn.aggr_module                          SumAggregation            params=0
+  gnn.lin                                  Linear                    params=4,096
+  head                                     Linear                    params=195

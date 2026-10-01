@@ -1,0 +1,5 @@
+Model,vs,Wilcoxon_stat,Wilcoxon_p,DM_HLN_stat,DM_HLN_p,Hybrid_Better
+NaivePersistence,Hybrid_PI_STGNN_FNO,85112202965.0,0.0,14.0415,0.0,True
+BaselineLSTM,Hybrid_PI_STGNN_FNO,90907588765.0,0.0,32.3646,0.0,True
+BaselineGCN,Hybrid_PI_STGNN_FNO,59306720558.0,0.0,-13.2743,0.0,True
+BaselineSTGNN,Hybrid_PI_STGNN_FNO,121188824701.0,0.0,-17.5924,0.0,True

@@ -1,0 +1,2 @@
+Model,ADF Statistic,ADF p-value,Stationary?,Shapiro p-value,Residual Skewness,Residual Kurtosis
+Hybrid_PI_STGNN_FNO,-3.4211,1.0260e-02,Yes,3.4431e-14,0.8641,0.7328

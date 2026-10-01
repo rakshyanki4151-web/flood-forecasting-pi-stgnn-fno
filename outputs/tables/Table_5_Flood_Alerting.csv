@@ -1,0 +1,3 @@
+Threshold,Precision,Recall (POD),F1-Score,False Alarm Rate (FAR),Critical Success Index (CSI)
+Major Flood,0.0727,0.7006,0.1318,0.9273,0.0705
+Extreme Flood,0.0000,0.0000,0.0000,0.0000,0.0000

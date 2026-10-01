@@ -1,0 +1,4 @@
+Parameter,Best Value,Objective Score (NSE),Trial Number
+lr,0.001,0.7392,6
+fno_modes,8,0.7392,6
+fno_width,32,0.7392,6

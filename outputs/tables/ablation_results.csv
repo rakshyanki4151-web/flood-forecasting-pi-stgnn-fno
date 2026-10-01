@@ -1,0 +1,5 @@
+Variant,NSE,KGE,RMSE,PBIAS,Inf_Latency_ms_sample,Mass_Balance_Err,Physics_Loss,FNO_Block,GAT_Block
+Full_Hybrid_FNO_GAT_Physics,0.8943,0.9426,41.3795,-0.7658,290.861,0.0016,True,True,True
+VariantA_NoPhysics,0.886,0.8538,42.9594,6.5518,82052.2472,0.0021,False,True,True
+VariantB_NoFNO,0.9094,0.8769,38.3041,-3.1887,51485.2888,0.0019,True,False,True
+VariantC_NoGAT,0.9138,0.8762,37.3587,7.3544,84902.5122,0.0061,True,True,False

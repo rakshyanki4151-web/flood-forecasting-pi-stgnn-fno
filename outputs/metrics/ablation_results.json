@@ -1,0 +1,50 @@
+[
+    {
+        "Variant": "Full_Hybrid_FNO_GAT_Physics",
+        "NSE": 0.8943,
+        "KGE": 0.9426,
+        "RMSE": 41.3795,
+        "PBIAS": -0.7658,
+        "Inf_Latency_ms_sample": 290.861,
+        "Mass_Balance_Err": 0.0016,
+        "Physics_Loss": true,
+        "FNO_Block": true,
+        "GAT_Block": true
+    },
+    {
+        "Variant": "VariantA_NoPhysics",
+        "NSE": 0.886,
+        "KGE": 0.8538,
+        "RMSE": 42.9594,
+        "PBIAS": 6.5518,
+        "Inf_Latency_ms_sample": 82052.2472,
+        "Mass_Balance_Err": 0.0021,
+        "Physics_Loss": false,
+        "FNO_Block": true,
+        "GAT_Block": true
+    },
+    {
+        "Variant": "VariantB_NoFNO",
+        "NSE": 0.9094,
+        "KGE": 0.8769,
+        "RMSE": 38.3041,
+        "PBIAS": -3.1887,
+        "Inf_Latency_ms_sample": 51485.2888,
+        "Mass_Balance_Err": 0.0019,
+        "Physics_Loss": true,
+        "FNO_Block": false,
+        "GAT_Block": true
+    },
+    {
+        "Variant": "VariantC_NoGAT",
+        "NSE": 0.9138,
+        "KGE": 0.8762,
+        "RMSE": 37.3587,
+        "PBIAS": 7.3544,
+        "Inf_Latency_ms_sample": 84902.5122,
+        "Mass_Balance_Err": 0.0061,
+        "Physics_Loss": true,
+        "FNO_Block": true,
+        "GAT_Block": false
+    }
+]

@@ -1,0 +1,40 @@
+======================================================================
+Model: Hybrid_PI_STGNN_FNO
+======================================================================
+Total Parameters:     57,958
+Trainable Parameters: 57,958
+Non-trainable:        0
+======================================================================
+Layer Architecture:
+  input_proj                               Sequential                params=0
+  input_proj.0                             Linear                    params=1,600
+  input_proj.1                             LayerNorm                 params=128
+  input_proj.2                             GELU                      params=0
+  input_proj.3                             Dropout                   params=0
+  gnn                                      GATConv                   params=192
+  gnn.aggr_module                          SumAggregation            params=0
+  gnn.lin                                  Linear                    params=4,096
+  gnn_norm                                 LayerNorm                 params=128
+  fno_proj                                 Conv1d                    params=2,080
+  fno_block1                               FNOSpectralBlock          params=16,384
+  fno_block1.conv                          Conv1d                    params=1,056
+  fno_block2                               FNOSpectralBlock          params=16,384
+  fno_block2.conv                          Conv1d                    params=1,056
+  fno_out                                  Conv1d                    params=2,112
+  fusion                                   Sequential                params=0
+  fusion.0                                 Linear                    params=8,256
+  fusion.1                                 LayerNorm                 params=128
+  fusion.2                                 GELU                      params=0
+  fusion.3                                 Dropout                   params=0
+  regression_head                          Sequential                params=0
+  regression_head.0                        Linear                    params=2,080
+  regression_head.1                        GELU                      params=0
+  regression_head.2                        Dropout                   params=0
+  regression_head.3                        Linear                    params=99
+  anomaly_head                             Sequential                params=0
+  anomaly_head.0                           Linear                    params=2,080
+  anomaly_head.1                           GELU                      params=0
+  anomaly_head.2                           Dropout                   params=0
+  anomaly_head.3                           Linear                    params=99
+  anomaly_head.4                           Sigmoid                   params=0
+  dropout                                  Dropout                   params=0

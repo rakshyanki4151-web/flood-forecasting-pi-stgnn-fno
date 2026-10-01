@@ -1,0 +1,7 @@
+Perturbation,Mean Obs Discharge,Mean Pred Discharge,Mass Balance Error (%),Physical Violation Count
+Rainfall_+20%,284.12,334.20,0.0125,0
+Rainfall_-20%,284.12,231.05,0.0094,0
+Temperature_+3C,284.12,302.40,0.0187,0
+Temperature_-3C,284.12,265.12,0.0142,0
+Snowpack_Zeroed,284.12,194.50,0.0245,0
+Extreme_Rainfall_+50%,284.12,422.30,0.0341,0

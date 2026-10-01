@@ -1,0 +1,5 @@
+Model_vs_Hybrid,Wilcoxon_p,ShapiroWilk_p,Skewness,Kurtosis,LjungBox_p,ADF_p,DM_HLN_stat,DM_HLN_p,Significant_at_5pct
+NaivePersistence,0.0,0.0,-2.1164,71.4139,0.0,0.000125,0.564,0.572788,Yes
+BaselineLSTM,0.0,0.0,-2.1164,71.4139,0.0,0.000125,2.6039,0.009245,Yes
+BaselineGCN,0.0,0.0,-2.1164,71.4139,0.0,0.000125,-7.4274,0.0,Yes
+BaselineSTGNN,0.0,0.0,-2.1164,71.4139,0.0,0.000125,-1.5066,0.131971,Yes

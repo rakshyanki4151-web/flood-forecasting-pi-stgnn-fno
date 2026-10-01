@@ -1,0 +1,6 @@
+Model Name,GNN Type,Parameters,VRAM Usage (GB),Inference Latency (ms)
+NaivePersistence,None,0,0.899,0.35
+BaselineLSTM,None,"68,355",26.757,3.21
+BaselineGCN,GCN,"5,955",0.921,56.47
+BaselineSTGNN,GAT,"56,003",23.741,31.10
+Hybrid_PI_STGNN_FNO,GAT,"297,670",11.339,103.67

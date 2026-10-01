@@ -1,0 +1,6 @@
+Model,KGE Score,Correlation (r),Variability Ratio (alpha),Bias Ratio (beta)
+NaivePersistence,0.9590,0.9591,0.9987,0.9980
+BaselineLSTM,0.9221,0.9676,0.9392,0.9636
+BaselineGCN,-299.3787,0.2753,300.5720,22.9886
+BaselineSTGNN,0.9069,0.9586,0.9518,1.0680
+Hybrid_PI_STGNN_FNO,0.8719,0.9465,0.8933,0.9536

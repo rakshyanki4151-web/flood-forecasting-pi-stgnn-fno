@@ -1,0 +1,16 @@
+Metric,Value
+Dataset,LamaH-CE v1.0 (Proxy for Nepal Himalayan Basins)
+Source URL,https://zenodo.org/records/5153305
+Total Nodes,345
+Total Edges,344
+Graph Diameter,36
+Avg Shortest Path,13.3157
+Headwater Count,176
+Outlet Node ID,187
+Temporal Coverage,"2000–2017 (18 years, ~6,574 days)"
+Train Period,"2000–2012 (13 yr, 72%)"
+Validation Period,"2013–2014 (2 yr, 11%)"
+Test Period,"2015–2017 (3 yr, 17%)"
+Dynamic Features,16 (incl. rolling & cyclic encodings)
+Static Features,7
+Himalayan Proxy,"Yes (alpine elevation, snow, glacier characteristics)"
